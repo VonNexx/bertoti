@@ -17,4 +17,5 @@ Outro exemplo que podemos citar é a comparação entre o Whatsapp e o Telegram,
 <img width="542" alt="image" src="https://github.com/VonNexx/Bertoti/assets/111203231/58ab7892-3195-42f9-94af-cab60f968d2d">
 
 ### 5) Classes UML
-<img width="473" alt="image" src="https://github.com/VonNexx/Bertoti/assets/111203231/f98af1dd-847b-4cd6-8d76-f063fcaf1ef2">
+<img width="578" alt="image" src="https://github.com/VonNexx/Bertoti/assets/111203231/dc577b98-d925-44d4-af57-521e352717f9">
+
