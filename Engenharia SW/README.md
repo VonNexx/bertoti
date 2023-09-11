@@ -14,8 +14,9 @@
 Outro exemplo que podemos citar é a comparação entre o Whatsapp e o Telegram, devido ao seu requisito não funcional que o Whatsapp se destaca: a segurança. A segurança oferecida pelo Whatsapp garante uma maior confiabilidade dos usuarios durante o uso do aplicativo, o que por sua vez aumenta a quantidade de pessoas que o utilizam.
 
 ### 4) Diagrama UML
-<img width="542" alt="image" src="https://github.com/VonNexx/Bertoti/assets/111203231/58ab7892-3195-42f9-94af-cab60f968d2d">
+<img width="542" alt="image" src="https://github.com/VonNexx/bertoti/assets/111203231/58ab7892-3195-42f9-94af-cab60f968d2d">
 
 ### 5) Classes UML
-<img width="578" alt="image" src="https://github.com/VonNexx/Bertoti/assets/111203231/dc577b98-d925-44d4-af57-521e352717f9">
+<img width="611" alt="image" src="https://github.com/VonNexx/bertoti/assets/111203231/d62ccbb6-b069-47e7-ab75-622168753206">
+
 
