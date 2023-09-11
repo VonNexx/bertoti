@@ -1,18 +1,12 @@
 public class Jogo {
     private String nome;
-    private String desenvolvedor;
-    private String distribuidora;
-    private String gênero;
+    private Especicacao espec;
     private double preço;
-    
-    public Jogo(String nome, String desenvolvedor, String distribuidora, String gênero, double preço) {
-        this.nome = nome;
-        this.desenvolvedor = desenvolvedor;
-        this.distribuidora = distribuidora;
-        this.gênero = gênero;
-        this.preço = preço;
 
-        
+    public Jogo(String nome, Especicacao espec, double preço) {
+        this.nome = nome;
+        this.espec = espec;
+        this.preço = preço;
     }
 
     public String getNome() {
@@ -23,35 +17,19 @@ public class Jogo {
         this.nome = nome;
     }
 
-    public String getDesenvolvedor() {
-        return desenvolvedor;
-    }
-
-    public void setDesenvolvedor(String desenvolvedor) {
-        this.desenvolvedor = desenvolvedor;
-    }
-
-    public String getDistribuidora() {
-        return distribuidora;
-    }
-
-    public void setDistribuidora(String distribuidora) {
-        this.distribuidora = distribuidora;
-    }
-
-    public String getGênero() {
-        return gênero;
-    }
-
-    public void setGênero(String gênero) {
-        this.gênero = gênero;
-    }
-
     public double getPreço() {
         return preço;
     }
 
     public void setPreço(double preço) {
         this.preço = preço;
+    }
+
+    public Especicacao getEspec() {
+        return espec;
+    }
+
+    public void setEspec(Especicacao espec) {
+        this.espec = espec;
     }
 }
