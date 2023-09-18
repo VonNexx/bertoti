@@ -1,10 +1,25 @@
 import java.util.LinkedList;
 import java.util.List;
 
-
 public class Loja {
     private List<Jogo> jogos = new LinkedList<Jogo>();
-    private List<Usuario> usuarios;
+    private List<Usuario> usuarios = new LinkedList<Usuario>();
+
+    public List<Jogo> getJogos() {
+        return jogos;
+    }
+
+    public void setJogos(List<Jogo> jogos) {
+        this.jogos = jogos;
+    }
+
+    public List<Usuario> getUsuarios() {
+        return usuarios;
+    }
+
+    public void setUsuarios(List<Usuario> usuarios) {
+        this.usuarios = usuarios;
+    }
 
     public void addJogo (Jogo jogo) {
         jogos.add(jogo);
@@ -24,7 +39,7 @@ public class Loja {
         return encontrados;
     }
 
-    public List<Jogo> buscarJogoEspecificacao (Especicacao espec) {
+    public List<Jogo> buscarJogoEspecificacao (Especificacao espec) {
         List<Jogo> encontrados = new LinkedList<Jogo>();
         for (Jogo jogo:jogos) {
             if (jogo.getEspec().equals(espec)) {
@@ -43,5 +58,5 @@ public class Loja {
         }
         return encontrados;
     }
-
+    
 }

@@ -1,9 +1,9 @@
 public class Jogo {
     private String nome;
-    private Especicacao espec;
-    private double preço;
+    private Especificacao espec;
+    private Double preço;
 
-    public Jogo(String nome, Especicacao espec, double preço) {
+    public Jogo(String nome, Especificacao espec, double preço) {
         this.nome = nome;
         this.espec = espec;
         this.preço = preço;
@@ -25,11 +25,7 @@ public class Jogo {
         this.preço = preço;
     }
 
-    public Especicacao getEspec() {
+    public Especificacao getEspec() {
         return espec;
-    }
-
-    public void setEspec(Especicacao espec) {
-        this.espec = espec;
     }
 }

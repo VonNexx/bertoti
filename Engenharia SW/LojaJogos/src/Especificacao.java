@@ -1,8 +1,13 @@
-public class Especicacao {
+public class Especificacao {
     private String desenvolvedor;
     private String distribuidora;
     private String genero;
 
+    public Especificacao(String desenvolvedor, String distribuidora, String genero) {
+        this.desenvolvedor = desenvolvedor;
+        this.distribuidora = distribuidora;
+        this.genero = genero;
+    }
     public String getDesenvolvedor() {
         return desenvolvedor;
     }
