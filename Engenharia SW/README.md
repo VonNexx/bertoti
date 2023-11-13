@@ -15,13 +15,13 @@
 - Excalabilidade X Complexidade
   ...  
 
-### 3) Requisito não funcional de usabilidade - avaliar 10 heurísticas
+### 3) Requisito não funcional de usabilidade - avaliar 10 heurísticas (fazer)
 ...
 
-### 4) Diagrama de Casos de Uso
+### 4) Diagrama de Casos de Uso (reupar)
 <img width="542" alt="image" src="https://github.com/VonNexx/bertoti/assets/111203231/58ab7892-3195-42f9-94af-cab60f968d2d">
 
-### 5) Diagrama de Classes UML
+### 5) Diagrama de Classes UML (atualizar)
 <img width="611" alt="image" src="https://github.com/VonNexx/bertoti/assets/111203231/d62ccbb6-b069-47e7-ab75-622168753206">
 
 
