@@ -22,4 +22,13 @@ public class Usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
+
+    public boolean compararUsuario(Usuario user){
+        if(nome.equals(user.getNome())
+        && senha.equals(user.getSenha())){
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

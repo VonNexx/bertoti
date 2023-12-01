@@ -2,9 +2,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Loja {
+    public static Jogo[] getJogos;
     private List<Jogo> jogos = new LinkedList<Jogo>();
     private List<Usuario> usuarios = new LinkedList<Usuario>();
 
+    // Gets e Sets
     public List<Jogo> getJogos() {
         return jogos;
     }
@@ -20,6 +22,7 @@ public class Loja {
     public void setUsuarios(List<Usuario> usuarios) {
         this.usuarios = usuarios;
     }
+    //Fim Gets e Sets
 
     public void addJogo (Jogo jogo) {
         jogos.add(jogo);
@@ -58,5 +61,4 @@ public class Loja {
         }
         return encontrados;
     }
-    
-}
+} 
